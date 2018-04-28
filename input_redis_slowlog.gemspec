@@ -10,7 +10,4 @@ Gem::Specification.new do |spec|
   spec.summary       = spec.description
   spec.files         = `git ls-files`.split($/)
   spec.require_paths = ["lib"]
-
-  spec.add_development_dependency "rake" 
-  spec.add_runtime_dependency "redis"
 end
