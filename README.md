@@ -1,6 +1,12 @@
 # input_redis_slowlog
 a fluentd input plugin for redis slowlog
 ## installation
+* fluentd must be installed before install this
+* download gem file from release
+```txt
+td-agent-gem install redis
+td-agent-gem install --local input_redis_slowlog.gem
+```
 ## config example
 ```txt
 <source>
